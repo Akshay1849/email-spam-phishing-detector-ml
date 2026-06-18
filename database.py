@@ -4,7 +4,6 @@ import os
 def init_db():
     db_path = os.path.join(
         os.path.dirname(__file__),
-        "database",
         "history.db"
     )
 
