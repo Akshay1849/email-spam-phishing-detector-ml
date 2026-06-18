@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 12px;
+  resize: none;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+}
+
+.result-card {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.result-card.spam {
+  border-left: 8px solid red;
+}
+
+.result-card.safe {
+  border-left: 8px solid green;
+}
+
+ul {
+  padding-left: 20px;
+}
+.chart-section {
+  margin-top: 30px;
+  background: rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+.chart-section h2 {
+  margin-bottom: 20px;
+}
