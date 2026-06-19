@@ -22,12 +22,13 @@ app = Flask(__name__)
 CORS(app)
 
 # Database path
-DB_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "..",
-    "database",
-    "history.db"
-)
+# DB_PATH = os.path.join(
+#     os.path.dirname(__file__),
+#     "..",
+#     "database",
+#     "history.db"
+# )
+DB_PATH = "/tmp/history.db"
 
 # Load ML model
 MODEL_PATH = os.path.join(
